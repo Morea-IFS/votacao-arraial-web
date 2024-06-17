@@ -1,1 +1,0 @@
-# votacao-arraial-web
