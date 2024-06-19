@@ -1,1 +1,4 @@
-venv
+.env
+votacao_arraial/__pycache__
+app/__pycache__
+db.*

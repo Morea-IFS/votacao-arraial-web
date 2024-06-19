@@ -1,3 +1,10 @@
 from django.shortcuts import render
 
-# Create your views here.
+def home(request):
+    return render(request, 'home.html')
+
+def candidates(request):
+    return render(request, 'candidates.html')
+
+def result(request):
+    return render(request, 'result.html')
