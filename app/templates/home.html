@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <link rel="shortcut icon" href="{% static 'images/logo-morea.svg' %}">
+    <title>Urna RJ45</title>
+</head>
+
+<body>
+    <header>
+        <nav class="container-navbar">
+            <div class="logo-navbar">
+                <a href="/">
+                    <img class="logo" src="{% static 'images/logo-morea.svg' %}" alt="Logo Morea">
+                </a>
+                <div class="mobile-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <a class="link-navbar" href="/">
+                        <li>Início</li>
+                    </a>
+                    <a class="link-navbar" href="/candidates">
+                        <li>Candidatos</li>
+                    </a>
+                    <a class="link-navbar" href="/result">
+                        <li>Resultados</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="all">
+        <div>
+            <div class="div-title">
+                <img class="hat" src="{% static 'images/chapeu.svg' %}" alt="chapeu">
+                <p class="title">Rei e Rainha</p>
+                <br>
+                <p class="title2">RJ-45</p>
+            </div>
+            <p class="text">
+                Conheça os candidatos, vote, acompanhe os
+                <br>
+                resultados e participe do concurso de Rei e
+                <br>
+                Rainha mais estimado Do IFS!
+            </p>
+            <img class="cactus" src="{% static 'images/fogueira-e-cactos.svg' %}" alt="Fogueira e cactos">
+        </div>
+        <img class="couple" src="{% static 'images/casal.svg' %}" alt="casal">
+    </main>
+<footer class="footer">
+        <div class="footer-div">
+            <div class="div-title-footer">
+                <img class="hat-footer" src="{% static 'images/chapeu.svg' %}" alt="chapéu">
+                <p class="title-footer">Rei e Rainha</p>
+                <br>
+                <p class="title-footer-2">RJ-45</p>
+            </div>
+            <div class="div-footer-realization">
+                <p class="title-footer-realization">Realização:</p>
+                <div class="footer-logos">
+                    <img class="footer-logos-item" src="{% static 'images/logo-morea.svg' %}" alt="Logo Morea">
+                    <img class="footer-logos-item" src="{% static 'images/logo-coirc.svg' %}" alt="Logo COIRC">
+                    <img class="footer-logos-item" src="{% static 'images/logo-ifs.png' %}" alt="Logo IFS">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="{% static 'js/mobile-menu.js' %}"></script>
+</body>
+
+</html>
